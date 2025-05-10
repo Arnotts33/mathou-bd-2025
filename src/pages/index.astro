@@ -1,12 +1,14 @@
 ---
 
-import Banner from '../components/Banner';
 import Layout from '../layouts/Layout.astro';
+import Banner from '../components/Banner';
+import Grid from '../components/Grid';
 
 ---
 
 <Layout>
     <main>
-      <Banner client:load/>
+      <Banner />
+      <Grid />
     </main>
 </Layout>

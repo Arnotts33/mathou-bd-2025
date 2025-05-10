@@ -1,0 +1,64 @@
+.grid {
+	padding: 0.5rem;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr 2fr 1fr;
+	grid-column-gap: 8px;
+	grid-row-gap: 8px;
+}
+
+.topSection {
+	display: flex;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+.chateaubernard {
+	background-color: #ffcfbe;
+	display: flex;
+	justify-content: center;
+	width: 245px;
+
+	img {
+		width: 215px;
+	}
+}
+
+.ollie {
+	width: 100%;
+}
+
+.house {
+	width: 245px;
+	background: linear-gradient(
+		to bottom,
+		rgba(25, 150, 253, 1) 0%,
+		rgba(56, 194, 255, 1) 50%,
+		rgba(162, 255, 250, 1) 100%
+	);
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+	.date {
+		position: absolute;
+		background-color: white;
+		padding: 1rem;
+		border: 1px solid #000;
+		top: 15%;
+
+		h2 {
+			text-align: center;
+			font-family: "Climate", sans-serif;
+			color: #97b8ff;
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			-webkit-text-stroke: 0.1px black;
+		}
+	}
+
+	img {
+		width: 200px;
+		align-self: flex-end;
+	}
+}
