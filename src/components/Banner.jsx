@@ -1,11 +1,13 @@
 import styles from "./Banner.module.css";
+import mathou from "../assets/images/mathou.webp";
+import friends from "../assets/images/friends.gif";
 
 function Banner() {
 	return (
 		<div className={styles.banner}>
 			<img
-				src="/images/mathou.webp"
-				// src="../assets/images/mathou.webp"
+				// src="/images/mathou.webp"
+				src={mathou.src}
 				alt="Mathou et Izzie"
 				className={styles.mathou}
 			/>
@@ -15,8 +17,8 @@ function Banner() {
 				<h3>Party</h3>
 			</div>
 			<img
-				src="/images/friends.gif"
-				// src="../assets/images/friends.gif"
+				// src="/images/friends.gif"
+				src={friends.src}
 				alt="friends gif"
 				className={styles.friends}
 			/>
