@@ -32,10 +32,10 @@
 	}
 
 	h3 {
-		font-family: "Bungee", sans-serif;
+		font-family: "Honk", sans-serif;
 		font-size: 1.5rem;
-		text-shadow: 0.5px 0.5px 0 #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000,
-			-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+		text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black,
+			-0.5px 0.5px 0 black, 0.5px 0.5px 0 black;
 	}
 }
 

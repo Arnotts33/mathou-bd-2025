@@ -6,8 +6,29 @@
 }
 
 @font-face {
-	font-family: "Bungee";
-	src: url("/public/fonts/BungeeSpice-Regular.ttf");
+	font-family: "Honk";
+	src: url("/public/fonts/Honk-Regular-VariableFont_MORF\,SHLN.ttf");
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Comic";
+	src: url("/public/fonts/ComicNeue-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Comic";
+	src: url("/fonts/ComicNeue-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Tiny5";
+	src: url("/public/fonts/Tiny5-Regular.ttf") format("truetype");
 	font-weight: 400;
 	font-display: swap;
 }
@@ -49,7 +70,6 @@ body {
 
 main {
 	width: 900px;
-	height: 800px;
 	margin: 2rem auto;
 	background-color: hsl(0, 0%, 16%);
 	border: 1px solid #000;
@@ -58,4 +78,29 @@ main {
 .retro-border {
 	box-shadow: -1px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000,
 		inset 2px 2px 0 #fff, inset 2px -2px 0 #848282, inset -2px 2px 0 #848282;
+}
+
+.old-scrollbar::-webkit-scrollbar {
+	width: 16px;
+}
+
+.old-scrollbar::-webkit-scrollbar-track {
+	background: #c0c0c0;
+	border-left: 2px solid #a0a0a0;
+	border-top: 2px solid #a0a0a0;
+	border-right: 2px solid #808080;
+	border-bottom: 2px solid #808080;
+}
+
+.old-scrollbar::-webkit-scrollbar-thumb {
+	background: linear-gradient(90deg, #c6c6c6, #8e8d8d);
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+/* Handle on hover */
+.old-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(90deg, #9b9a9a, #777777);
 }

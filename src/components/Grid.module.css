@@ -2,7 +2,7 @@
 	padding: 0.5rem;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	grid-template-rows: 1fr 2fr 1fr;
+	/* grid-template-rows: 1fr 2fr 1fr; */
 	grid-column-gap: 8px;
 	grid-row-gap: 8px;
 }
@@ -14,7 +14,7 @@
 }
 
 .chateaubernard {
-	background-color: #ffcfbe;
+	background-color: hsl(16, 100%, 87%);
 	display: flex;
 	justify-content: center;
 	width: 245px;
@@ -24,8 +24,10 @@
 	}
 }
 
-.ollie {
-	width: 100%;
+.ollieContainer {
+	height: 270px;
+	background-image: url("../assets/images/ollie.webp");
+	background-size: cover;
 }
 
 .house {
@@ -50,7 +52,7 @@
 		h2 {
 			text-align: center;
 			font-family: "Climate", sans-serif;
-			color: #97b8ff;
+			color: hsl(221, 100%, 80%);
 			font-size: 1.5rem;
 			text-transform: uppercase;
 			-webkit-text-stroke: 0.1px black;
@@ -60,5 +62,231 @@
 	img {
 		width: 200px;
 		align-self: flex-end;
+	}
+}
+
+/* Middle Section */
+.partyWords {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	background-color: hsl(152, 78%, 43%);
+	font-family: "Comic", sans-serif;
+
+	h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: hsl(37, 91%, 46%);
+		text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+			1px 1px 0 black;
+	}
+}
+
+.gridCenter {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.sardinadeContainer {
+	background-color: #f65422;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 1rem;
+
+	h2 {
+		font-size: 2.25rem;
+		font-family: "Climate", sans-serif;
+		color: white;
+		text-transform: uppercase;
+		-webkit-text-stroke: 0.5px black;
+	}
+
+	.imagesContainer {
+		display: flex;
+		gap: 1rem;
+
+		.sardinade {
+			background: linear-gradient(to bottom, #ffd900 0%, #31b900 100%);
+			border-radius: 4px;
+		}
+
+		img {
+			width: 90px;
+			border: 2px solid hsl(37, 91%, 46%);
+			border-radius: 4px;
+		}
+	}
+}
+
+.champCakeContainer {
+	display: flex;
+	gap: 0.5rem;
+
+	.champagne {
+		background-color: hsl(0, 0%, 79%);
+		width: 50%;
+		height: 180px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+			width: 90%;
+		}
+	}
+
+	.cheesecake {
+		position: relative;
+		width: 50%;
+
+		img {
+			margin: 1rem auto;
+			width: 130px;
+		}
+
+		.cheesecakeText {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: #9f9f9f;
+			padding-block: 1rem;
+			width: 60%;
+
+			p {
+				text-align: center;
+				font-family: "Tiny5", sans-serif;
+			}
+		}
+	}
+}
+
+.playlist {
+	background-color: hsl(48, 96%, 53%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem 0;
+	gap: 1rem;
+
+	.title {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+
+		h2 {
+			font-family: "Climate", sans-serif;
+			font-size: 2rem;
+			color: white;
+			-webkit-text-stroke: 0.5px black;
+			text-transform: uppercase;
+		}
+
+		p {
+			font-family: "Comic", sans-serif;
+			font-size: 1rem;
+			font-weight: 700;
+		}
+	}
+
+	.playlistContainer {
+		display: flex;
+		flex-direction: column;
+		height: 275px;
+		overflow-y: scroll;
+		gap: 1rem;
+		padding-inline: 1rem;
+		padding-block: 0.5rem 1rem;
+		align-self: baseline;
+		width: 95%;
+
+		.songBox {
+			background-color: hsl(0, 0%, 79%);
+			padding: 0.25rem 0.5rem;
+		}
+	}
+}
+
+.ikeaGift {
+	height: 325px;
+	position: relative;
+	background-image: url("../assets/images/ikea.webp");
+	background-size: cover;
+
+	.cagnotteBtn {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 15%;
+		margin: auto;
+		width: 85%;
+		font-family: "Honk", sans-serif;
+		font-size: 1.5rem;
+		background: linear-gradient(to bottom, #d0dfff 0%, #6f92de 100%);
+		border: none;
+		padding: 0.5rem 1rem;
+		border-radius: 50px;
+		text-decoration: none;
+		text-align: center;
+		text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black,
+			-0.5px 0.5px 0 black, 0.5px 0.5px 0 black;
+	}
+}
+
+.seeYou {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../assets/images/sun.webp");
+	background-size: cover;
+
+	.seeYouText {
+		background-color: hsl(324, 64%, 56%);
+		width: 150px;
+		height: 150px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		border: 4px solid hsl(324, 64%, 46%);
+
+		p {
+			font-family: "Comic", sans-serif;
+			color: white;
+			font-size: 1.5rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			-webkit-text-stroke: 0.5px black;
+		}
+	}
+}
+
+.chirac {
+	position: relative;
+	background-color: hsl(0, 0%, 79%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../assets/images/chirac.webp");
+	background-size: cover;
+
+	.chiracText {
+		position: absolute;
+
+		p {
+			font-family: "Climate", sans-serif;
+			font-size: 2.5rem;
+			color: white;
+			text-transform: uppercase;
+			-webkit-text-stroke: 0.5px black;
+		}
 	}
 }
