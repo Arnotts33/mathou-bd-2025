@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Climate";
+	src: url("/public/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf");
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Bungee";
+	src: url("/public/fonts/BungeeSpice-Regular.ttf");
+	font-weight: 400;
+	font-display: swap;
+}
+
+:root {
+	--clr-neutral-900: hsl(0, 0%, 16%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+
+p {
+	text-wrap: pretty;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+body {
+	margin: 0;
+	background-color: #fe9ef1;
+	background-image: url("../assets/images/mathou-bg.svg");
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+main {
+	width: 900px;
+	height: 800px;
+	margin: 2rem auto;
+	background-color: grey;
+	border: 1px solid #000;
+}
