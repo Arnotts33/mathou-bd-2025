@@ -4,7 +4,8 @@ function Banner() {
 	return (
 		<div className={styles.banner}>
 			<img
-				src="/public/images/mathou.webp"
+				// src="/public/images/mathou.webp"
+				src="../assets/images/mathou.webp"
 				alt="Mathou et Izzie"
 				className={styles.mathou}
 			/>
@@ -14,7 +15,8 @@ function Banner() {
 				<h3>Party</h3>
 			</div>
 			<img
-				src="/public/images/friends.gif"
+				// src="/public/images/friends.gif"
+				src="../assets/images/friends.gif"
 				alt="friends gif"
 				className={styles.friends}
 			/>
