@@ -202,7 +202,7 @@
 		height: 275px;
 		overflow-y: scroll;
 		gap: 1rem;
-		padding-inline: 0 1rem;
+		padding-inline: 1rem;
 		padding-block: 0.5rem 1rem;
 		align-self: baseline;
 		width: 95%;
