@@ -1,20 +1,20 @@
 @font-face {
 	font-family: "Climate";
-	src: url("/public/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf");
+	src: url("/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf");
 	font-weight: 400;
 	font-display: swap;
 }
 
 @font-face {
 	font-family: "Honk";
-	src: url("/public/fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf");
+	src: url("/fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf");
 	font-weight: 400;
 	font-display: swap;
 }
 
 @font-face {
 	font-family: "Comic";
-	src: url("/public/fonts/ComicNeue-Regular.ttf") format("truetype");
+	src: url("/fonts/ComicNeue-Regular.ttf") format("truetype");
 	font-weight: 400;
 	font-display: swap;
 }
@@ -28,7 +28,7 @@
 
 @font-face {
 	font-family: "Tiny5";
-	src: url("/public/fonts/Tiny5-Regular.ttf") format("truetype");
+	src: url("/fonts/Tiny5-Regular.ttf") format("truetype");
 	font-weight: 400;
 	font-display: swap;
 }
