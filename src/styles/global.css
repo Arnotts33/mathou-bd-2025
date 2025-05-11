@@ -8,8 +8,8 @@
 
 @font-face {
 	font-family: "Honk";
-	src: url("/public/fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf")
-		format("truetype");
+	src: url("/fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf") format("truetype"),
+		url("/public/fonts/HonkRegular.woff2") format("woff2");
 	font-weight: 400;
 	font-display: swap;
 }
